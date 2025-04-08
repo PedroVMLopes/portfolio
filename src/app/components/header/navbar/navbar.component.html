@@ -1,10 +1,10 @@
-<div class="m-2 flex flex-row justify-between">
+<div class="m-2 h-12 flex flex-row justify-between">
     <div class="flex">
-        <p class="paprika text-2xl cursor-default">PV</p>
+        <p class="paprika text-3xl cursor-default">PV</p>
     </div>
     
-    <div class="flex flex-row text-sm">
-        <div class="flex items-center font-semibold cursor-default custom-border text-green-950 mr-1">
+    <div id="availableForHire" class="flex flex-row items-center">
+        <div class="flex items-center font-semibold cursor-default custom-border text-green-950 mr-1 h-full">
             <label class="toggle toggle-xs mr-1 mt-0.5 cursor-default">
                 <input type="checkbox" checked="checked" class="checked:bg-green-700 rounded-full" disabled>
                 <svg aria-label="disabled" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
@@ -12,8 +12,16 @@
             </label>
             <p>Disponível para contratação</p>
         </div>
-        <div class="dropdown dropdown-hover p-2 rounded-xl bg-secondary text-secondary-content">
-            <div tabindex="0" role="button" class="p-0">Contato</div>
+        <div id="lenguageChanger" class="custom-border mr-1 h-full content-center">
+            <label class="swap swap-flip text-xl">
+                <!-- this hidden checkbox controls the state -->
+                <input type="checkbox" />
+                <div class="swap-off flex"><img class="w-10 h-full rounded-xl" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/960px-Flag_of_Brazil.svg.png?20240809055211"></div>
+                <div class="swap-on flex"><img class="w-10 h-full rounded-xl" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/960px-Flag_of_the_United_Kingdom.svg.png?20190917170937"></div>
+            </label>
+        </div>
+        <div id="menu" class="dropdown dropdown-hover dropdown-end p-2 px-4 rounded-xl bg-secondary text-secondary-content items-center h-full">
+            <div tabindex="0" role="button" class="w-full h-full content-center"><svg class="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#ffd6a7" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></div>
             <div tabindex="0" class="dropdown-content dropdown menu rounded-box mt-2 shadow-sm gap-1 bg-base-100">
                 <li class="w-12 pt-1">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
