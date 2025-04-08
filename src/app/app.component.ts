@@ -8,7 +8,7 @@ import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, IntroductionComponent, TranslateModule],
+  imports: [NavbarComponent, IntroductionComponent, TranslateModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -18,7 +18,10 @@ export class AppComponent {
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['pt-BR', 'en-US']);
     this.translate.setDefaultLang('pt-BR');
-    this.translate.use('pt-BR');
+    this.translate.use(this.translate.getBrowserLang() || "en-US");
+  }
+
+  useLenguage(lenguage: string): void {
+    this.translate.use(lenguage);
   }
 }
-
