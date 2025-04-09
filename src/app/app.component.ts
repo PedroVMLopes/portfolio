@@ -4,11 +4,12 @@ import { NavbarComponent } from "./components/header/navbar/navbar.component";
 import { IntroductionComponent } from "./components/introduction/introduction.component";
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslateService } from '@ngx-translate/core';
+import { TabletopComponent } from "./components/projects/tabletop/tabletop.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavbarComponent, IntroductionComponent, TranslateModule],
+  imports: [NavbarComponent, IntroductionComponent, TranslateModule, TabletopComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
