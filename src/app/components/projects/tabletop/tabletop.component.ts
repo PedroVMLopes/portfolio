@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faCaretRight, faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import { faDiceD20 } from '@fortawesome/free-solid-svg-icons';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -10,6 +10,5 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './tabletop.component.scss'
 })
 export class TabletopComponent {
-  faCaretRight = faCaretRight;
-  faUserPlus = faUserPlus;
+  faDiceD20 = faDiceD20;
 }
