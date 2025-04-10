@@ -1,22 +1,74 @@
 <div id="tabletop" class="mx-[8%] mt-12 mb-80">
-    <h1 class="pl-1 my-4 font-bold text-xl"> <fa-icon class="text-neutral" [icon]="faCaretRight"></fa-icon> Tabletop Supporter</h1>
-    <div class="flex flex-row justify-center">
-        <div id="tabletopCard_leftSide" class="w-[50%] custom-border">
-            <img class="rounded-lg shadow-lg" src="https://i.imgur.com/TY3MpXz.png" alt="Image of my tabletop game menu">
+    <h1 class="divider divider-start pl-1 font-bold text-2xl">Tabletop Support</h1>
+    <div class="justify-center pt-4 gap-4 grid grid-cols-1 lg:grid-cols-2">
+        <div id="tabletopCard_leftSide" class="shadow-lg rounded-box p-3 bg-white bg-opacity-60">
+            <div class="w-full flex justify-center"><img class="max-w-[400px]" src="https://i.imgur.com/zGkhIJu.png" alt="Image of a isometric 3D medieval city"></div>
+            <div class="divider divider-vertical divider-secondary rounded-full opacity-40 mx-2 "></div>
             <p class="my-4 ml-1">{{'tabletop.description' | translate }}</p>
             <div class="flex flex-row">
                 <div class="badge badge-soft badge-primary">React</div>
                 <div class="badge badge-soft badge-primary mx-2">JavaScript</div>
                 <div class="badge badge-soft badge-primary">Electron</div>
             </div>
-            <div>
+            <div class="flex flex-row gap-2">
                 <button class="mt-4 btn btn-secondary">{{'projects.moreInfoBtn' | translate }}</button>
+                <div class="tooltip tooltip-bottom" data-tip="Google Drive Link">
+                    <a href="https://drive.google.com/drive/folders/1ngA243r2AfNMAHVmCo6PaA6PJc0yROEc" target="_blank">
+                        <button class="mt-4 btn btn-secondary">Download</button>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="divider divider-horizontal"></div>
-        <div id="tabletopCard_rightSide" class="w-[50%]">
-            <h1>Chat</h1>
+        <div id="tabletopCard_rightSide" class="grid grid-cols-1">
+            <div id="chatBox" class="shadow-lg rounded-box p-3 pb-4 bg-white bg-opacity-60 flex flex-col justify-evenly">
+                <div class="chat chat-end">
+                    <div class="chat-image avatar">
+                        <div class="w-10 rounded-full">
+                            <img
+                            alt="Tailwind CSS chat bubble component"
+                            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                        </div>
+                    </div>
+                    <div class="chat-header">
+                      Dungeon Master
+                    </div>
+                    <div class="chat-bubble chat-bubble-primary">{{'tabletop.dialogue1' | translate }}</div>
+                </div>
+                <div class="chat chat-start">
+                    <div class="chat-image avatar">
+                        <div class="w-10 rounded-full">
+                            <img
+                                alt="Tailwind CSS chat bubble component"
+                                src="https://img.daisyui.com/images/profile/demo/4@94.webp" />
+                        </div>
+                    </div>
+                    <div class="chat-header">
+                        {{'tabletop.bardName' | translate }}
+                        <time class="text-xs opacity-50">Lv3</time>
+                    </div>
+                    <div class="chat-bubble chat-bubble-primary">{{'tabletop.dialogue2' | translate }}</div>
+                </div>
+                <div class="chat chat-end">
+                    <div class="chat-image avatar">
+                        <div class="w-10 rounded-full">
+                            <img
+                            alt="Tailwind CSS chat bubble component"
+                            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                        </div>
+                    </div>
+                    <div class="chat-header">
+                      Dungeon Master
+                    </div>
+                    <div class="chat-bubble chat-bubble-primary">{{'tabletop.dialogue3' | translate }}</div>
+                </div>
+            </div>
+            <div class="shadow-lg rounded-box flex flex-col p-3 mt-2 bg-white bg-opacity-60">
+                <div class="flex flex-row items-center justify-evenly">
+                    <h2>{{'tabletop.npcCreationBtn' | translate }}</h2>
+                    <button class="btn btn-accent animate-pulse"><fa-icon [icon]="faUserPlus"></fa-icon></button>
+                </div>
+                <h1>O personagem é um: </h1>
+            </div>
         </div>
     </div>
-    
 </div>

@@ -5,7 +5,13 @@
 	"introductoryText.right": ", me aventurando em project based learning.",
 	"isAvailableText": "Disponível para contratação",
 	"projects.moreInfoBtn": "Saiba Mais",
+	"projects.repositoryBtn": "Repositório",
 	"seeMyProjectsButton": "Veja meus projetos",
+	"tabletop.bardName": "Bardo",
 	"tabletop.description": "Aplicação desktop que auxilia game masters a manter informações de combate em tempo real, além de fornecer um sistema robusto de criação de NPCs.",
+	"tabletop.dialogue1": "Vocês entram na fila de uma taverna lotada...",
+	"tabletop.dialogue2": "Eu quero falar com quem estiver na nossa frente!",
+	"tabletop.dialogue3": "Sem problemas! A pessoa da frente é um...",
+	"tabletop.npcCreationBtn": "Crie seu próprio personagem!",
 	"test.title": "portuguese test"
 }
