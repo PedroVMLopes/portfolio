@@ -5,11 +5,12 @@ import { IntroductionComponent } from "./components/introduction/introduction.co
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslateService } from '@ngx-translate/core';
 import { TabletopComponent } from "./components/projects/tabletop/tabletop.component";
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavbarComponent, IntroductionComponent, TranslateModule, TabletopComponent],
+  imports: [NavbarComponent, IntroductionComponent, TranslateModule, TabletopComponent, FontAwesomeModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

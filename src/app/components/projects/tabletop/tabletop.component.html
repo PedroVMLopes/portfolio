@@ -1,9 +1,22 @@
-<div id="tabletop" class="mx-[8%] mt-12 flex flex-row justify-center custom-border">
-    <div id="tabletopCard_leftSide" class="w-[50%]">
-        <img class="rounded-lg" src="https://i.imgur.com/TY3MpXz.png" alt="Image of my tabletop game menu">
+<div id="tabletop" class="mx-[8%] mt-12 mb-80">
+    <h1 class="pl-1 my-4 font-bold text-xl"> <fa-icon class="text-neutral" [icon]="faCaretRight"></fa-icon> Tabletop Supporter</h1>
+    <div class="flex flex-row justify-center">
+        <div id="tabletopCard_leftSide" class="w-[50%] custom-border">
+            <img class="rounded-lg shadow-lg" src="https://i.imgur.com/TY3MpXz.png" alt="Image of my tabletop game menu">
+            <p class="my-4 ml-1">{{'tabletop.description' | translate }}</p>
+            <div class="flex flex-row">
+                <div class="badge badge-soft badge-primary">React</div>
+                <div class="badge badge-soft badge-primary mx-2">JavaScript</div>
+                <div class="badge badge-soft badge-primary">Electron</div>
+            </div>
+            <div>
+                <button class="mt-4 btn btn-secondary">{{'projects.moreInfoBtn' | translate }}</button>
+            </div>
+        </div>
+        <div class="divider divider-horizontal"></div>
+        <div id="tabletopCard_rightSide" class="w-[50%]">
+            <h1>Chat</h1>
+        </div>
     </div>
-    <div class="divider divider-horizontal py-4"></div>
-    <div id="tabletopCard_rightSide" class="w-[50%]">
-        <h1>Chat</h1>
-    </div>
+    
 </div>

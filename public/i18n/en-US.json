@@ -4,6 +4,8 @@
 	"introductoryText.left": "Software developer with focus on ",
 	"introductoryText.right": ", adventuring in project based learning.",
 	"isAvailableText": "Available for hire",
+	"projects.moreInfoBtn": "More Info",
 	"seeMyProjectsButton": "See my projects",
+	"tabletop.description": "Desktop application that helps game masters maintain real-time combat information, as well as providing a robust NPC creation system.",
 	"test.title": "english test"
 }
