@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faPersonCirclePlus } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -11,4 +12,5 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class TabletopComponent {
   faPersonCirclePlus = faPersonCirclePlus;
+  faGithub = faGithub;
 }

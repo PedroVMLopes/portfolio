@@ -6,12 +6,13 @@
 	"isAvailableText": "Available for hire",
 	"projects.moreInfoBtn": "More Info",
 	"projects.repositoryBtn": "Repository",
+	"repository": "Repository",
 	"seeMyProjectsButton": "See my projects",
 	"tabletop.bardName": "Bard",
 	"tabletop.description": "Desktop application that helps game masters maintain real-time combat information, as well as providing a robust NPC creation system.",
 	"tabletop.dialogue1": "You join the queue at a crowded tavern...",
 	"tabletop.dialogue2": "I want to talk to whoever is in front of us!",
 	"tabletop.dialogue3": "No problem! The person in front is a...",
-	"tabletop.npcCreationBtn": "Create your character with 1 click",
+	"tabletop.npcCreationBtn": "Click to generate a character",
 	"test.title": "english test"
 }

@@ -1,7 +1,7 @@
-<div id="tabletop" class="mx-[8%] mt-12 mb-80 rounded-box p-4 backgroundTabletop">
-    <div class="justify-center gap-4 grid grid-cols-1">
-        <div id="tabletopCard_leftSide" class="rounded-box p-4 flex flex-col lg:flex-row shadow-xl bg-base-200 bg-opacity-30">
-            <div class="w-full flex justify-center"><img class="max-w-[400px] rounded-full" src="https://i.imgur.com/zGkhIJu.png" alt="Image of a isometric 3D medieval city"></div>
+<div id="tabletop" class="mt-12 mb-80 p-4 backgroundTabletop">
+    <div class="justify-center gap-4 grid grid-cols-1 lg:m-[2%]">
+        <div id="tabletopCard_leftSide" class="rounded-box p-4 flex flex-col lg:flex-row shadow-xl bg-base-200 bg-opacity-30 border-2 border-base-300">
+            <div class="w-full flex justify-center"><img class="max-w-[300px] rounded-full" src="https://i.imgur.com/zGkhIJu.png" alt="Image of a isometric 3D medieval city"></div>
             <div class="divider divider-horizontal divider-secondary rounded-full opacity-40 my-2 mx-8"></div>
             <div class="flex flex-col justify-center w-full">
                 <h1 class="pl-1 font-bold text-xl mb-0">Tabletop Support</h1>
@@ -12,7 +12,9 @@
                     <div class="badge badge-primary">Electron</div>
                 </div>
                 <div class="flex flex-row gap-2">
-                    <button class="mt-4 btn btn-secondary">{{'projects.moreInfoBtn' | translate }}</button>
+                    <a href="https://github.com/PedroVMLopes/desktop-companion" target="_blank">
+                        <button class="mt-4 btn btn-secondary"><fa-icon [icon]="faGithub" class="text-xl"></fa-icon> {{'repository' | translate }} </button>
+                    </a>
                     <div class="tooltip tooltip-bottom" data-tip="Google Drive Link">
                         <a href="https://drive.google.com/drive/folders/1ngA243r2AfNMAHVmCo6PaA6PJc0yROEc" target="_blank">
                             <button class="mt-4 btn btn-secondary">Download</button>
@@ -64,12 +66,42 @@
                     <div class="chat-bubble chat-bubble-secondary">{{'tabletop.dialogue3' | translate }}</div>
                 </div>
             </div>
-            <div class="rounded-3xl flex flex-col shadow-2xl bg-base-200">
+            <div id="characterCreator" class="rounded-3xl flex flex-col shadow-2xl bg-base-200 border-2 border-base-300">
                 <div class="flex flex-row items-center justify-evenly bg-base-300 p-4 rounded-t-3xl">
-                    <button class="btn btn-accent text-lg"> {{'tabletop.npcCreationBtn' | translate }} <fa-icon [icon]="faPersonCirclePlus" class="animate-pulse"></fa-icon></button>
+                    <h1 class="font-semibold text-lg">{{'tabletop.npcCreationBtn' | translate }}</h1>
+                    <button class="btn btn-accent text-lg px-3">  <fa-icon [icon]="faPersonCirclePlus" class="animate-pulse ml-1"></fa-icon></button>
                 </div>
-                <div class="">
-                    <h1>O personagem é um: </h1>
+                <div class="flex justify-evenly">
+                    <div class="flex w-full flex-col gap-4 my-3 px-4">
+                        <div class="flex items-center gap-4">
+                            <div class="skeleton h-16 w-16 shrink-0 rounded-full"></div>
+                            <div class="flex flex-col gap-4">
+                                <div class="skeleton h-4 w-20"></div>
+                                <div class="skeleton h-4 w-28"></div>
+                            </div>
+                        </div>
+                        <div class="skeleton h-32 w-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <div tabindex="0" class="collapse bg-base-100 border-base-300 border h-min">
+                <div class="collapse-title font-semibold">How do I create an account?</div>
+                <div class="collapse-content text-sm">
+                  Click the "Sign Up" button in the top right corner and follow the registration process.
+                </div>
+            </div>
+            <div tabindex="1" class="collapse bg-base-100 border-base-300 border h-min">
+                <div class="collapse-title font-semibold">How do I create an account?</div>
+                <div class="collapse-content text-sm">
+                  Click the "Sign Up" button in the top right corner and follow the registration process.
+                </div>
+            </div>
+            <div tabindex="2" class="collapse bg-base-100 border-base-300 border h-min">
+                <div class="collapse-title font-semibold">How do I create an account?</div>
+                <div class="collapse-content text-sm">
+                  Click the "Sign Up" button in the top right corner and follow the registration process.
                 </div>
             </div>
         </div>
