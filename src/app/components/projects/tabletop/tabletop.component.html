@@ -1,6 +1,6 @@
 <div id="tabletop" class="mt-16 mb-80 p-4 backgroundTabletop rounded-md">
     <div class="justify-center gap-4 grid grid-cols-1 md:m-[2%] lg:m-[8%]">
-        <div id="tabletopCard_leftSide" class="rounded-box p-4 flex flex-col lg:flex-row shadow-xl bg-base-200 bg-opacity-30">
+        <div id="tabletopCard_top" class="rounded-box p-4 flex flex-col lg:flex-row shadow-xl bg-base-100 thin-border ">
             <div class="w-full flex justify-center"><img class="max-w-[300px] rounded-full" src="https://i.imgur.com/zGkhIJu.png" alt="Image of a isometric 3D medieval city"></div>
             <div class="divider divider-horizontal divider-secondary rounded-full opacity-40 my-2 mx-8"></div>
             <div class="flex flex-col justify-center w-full">
@@ -24,26 +24,26 @@
             </div>
         </div>
         <div id="tabletopDescriptionBoxes" class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-            <div tabindex="0" class="collapse bg-base-200 border-base-300 border h-min">
+            <div tabindex="0" class="collapse bg-secondary text-secondary-content h-min shadow-xl">
                 <div class="collapse-title font-semibold text-center text-lg px-0">{{'tabletop.descriptionBoxes.mainFeatures.title' | translate }}</div>
                 <div class="collapse-content text-sm">
                   Click the "Sign Up" button in the top right corner and follow the registration process.
                 </div>
             </div>
-            <div tabindex="1" class="collapse bg-base-200 border-base-300 border h-min">
+            <div tabindex="1" class="collapse bg-secondary text-secondary-content h-min shadow-xl">
                 <div class="collapse-title font-semibold text-center text-lg px-0">{{'tabletop.descriptionBoxes.devNotes.title' | translate }}</div>
                 <div class="collapse-content text-sm">
                   Click the "Sign Up" button in the top right corner and follow the registration process.
                 </div>
             </div>
-            <div tabindex="2" class="collapse bg-base-200 border-base-300 border h-min">
+            <div tabindex="2" class="collapse bg-secondary text-secondary-content h-min shadow-xl">
                 <div class="collapse-title font-semibold text-center text-lg px-0">{{'tabletop.descriptionBoxes.toolsUsed.title' | translate }}</div>
                 <div class="collapse-content text-sm">
                   Click the "Sign Up" button in the top right corner and follow the registration process.
                 </div>
             </div>
         </div>
-        <div id="tabletopCard_rightSide" class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div id="tabletopCard_bottom" class="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div id="chatBox" class="rounded-box flex flex-col justify-evenly shadow-2xl p-4">
                 <div class="chat chat-end">
                     <div class="chat-image avatar">
@@ -86,8 +86,8 @@
                     <div class="chat-bubble chat-bubble-secondary">{{'tabletop.dialogue3' | translate }}</div>
                 </div>
             </div>
-            <div id="characterCreator" class="rounded-3xl flex flex-col shadow-2xl bg-base-200 border-2 border-base-300">
-                <div class="flex flex-row items-center justify-evenly bg-base-300 p-4 rounded-t-3xl">
+            <div id="characterCreator" class="rounded-3xl flex flex-col shadow-2xl bg-base-200">
+                <div class="flex flex-row items-center justify-evenly bg-secondary text-secondary-content p-4 rounded-t-3xl">
                     <h1 class="font-semibold text-lg">{{'tabletop.npcCreationBtn' | translate }}</h1>
                     <button class="btn btn-accent text-lg px-3">  <fa-icon [icon]="faPersonCirclePlus" class="animate-pulse ml-1"></fa-icon></button>
                 </div>
