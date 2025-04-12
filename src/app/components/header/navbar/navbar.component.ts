@@ -1,14 +1,23 @@
 import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @Component({
   selector: 'app-navbar',
-  imports: [TranslateModule, NgIf],
+  imports: [TranslateModule, NgIf, FontAwesomeModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
+
+  /* Icons */
+  faGithub = faGithub;
+  faLinkedin = faLinkedin;
+  faWhatsapp = faWhatsapp;
+  faEnvelope = faEnvelope;
 
   isEnglish = false;
   showToast = false;
