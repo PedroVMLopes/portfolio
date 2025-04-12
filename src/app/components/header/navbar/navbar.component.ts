@@ -1,9 +1,9 @@
 import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navbar',
@@ -18,6 +18,7 @@ export class NavbarComponent {
   faLinkedin = faLinkedin;
   faWhatsapp = faWhatsapp;
   faEnvelope = faEnvelope;
+  faBriefcase = faBriefcase;
 
   isEnglish = false;
   showToast = false;

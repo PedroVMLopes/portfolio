@@ -11,11 +11,10 @@
 	"tabletop.bardName": "Bard",
 	"tabletop.description": "Desktop application that helps game masters maintain real-time combat information, as well as providing a robust NPC creation system.",
 	"tabletop.descriptionBoxes.devNotes.title": "Developer Notes",
-	"tabletop.descriptionBoxes.mainFeatures.title": "The Project",
+	"tabletop.descriptionBoxes.mainFeatures.title": "Functionalities",
 	"tabletop.descriptionBoxes.toolsUsed.title": "Technologies Used",
 	"tabletop.dialogue1": "You join the queue at a crowded tavern...",
 	"tabletop.dialogue2": "I want to talk to whoever is in front of us!",
 	"tabletop.dialogue3": "No problem! The person in front is a...",
-	"tabletop.npcCreationBtn": "Click to generate a character",
-	"test.title": "english test"
+	"tabletop.npcCreationBtn": "Click to generate a character"
 }

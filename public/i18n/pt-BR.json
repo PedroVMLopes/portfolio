@@ -11,11 +11,10 @@
 	"tabletop.bardName": "Bardo",
 	"tabletop.description": "Aplicação desktop que auxilia game masters a manter informações de combate em tempo real, além de fornecer um sistema robusto de criação de NPCs.",
 	"tabletop.descriptionBoxes.devNotes.title": "Notas do Desenvolvedor",
-	"tabletop.descriptionBoxes.mainFeatures.title": "O Projeto",
+	"tabletop.descriptionBoxes.mainFeatures.title": "Funcionalidades",
 	"tabletop.descriptionBoxes.toolsUsed.title": "Tecnologias Utilizadas",
 	"tabletop.dialogue1": "Vocês entram na fila de uma taverna lotada...",
 	"tabletop.dialogue2": "Eu quero falar com quem estiver na nossa frente!",
 	"tabletop.dialogue3": "Sem problemas! A pessoa da frente é um...",
-	"tabletop.npcCreationBtn": "Clique para gerar um personagem",
-	"test.title": "portuguese test"
+	"tabletop.npcCreationBtn": "Clique para gerar um personagem"
 }
