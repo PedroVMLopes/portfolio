@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Paprika&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Paprika&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
 
 :root:has(input.theme-controller[value=customTheme]:checked),[data-theme="customTheme"] {
     color-scheme: "light";
@@ -36,6 +36,7 @@
     --noise: 1;
 }
 
+/* FONTS */
 .shrikhand {
     font-family: "Shrikhand", serif;
     font-weight: 400;
@@ -52,6 +53,10 @@
     font-family: "Newsreader", serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
 }
 
 @layer utilities {
