@@ -15,6 +15,6 @@
 	"tabletop.descriptionBoxes.toolsUsed.title": "Tecnologias Utilizadas",
 	"tabletop.dialogue1": "Vocês entram na fila de uma taverna lotada...",
 	"tabletop.dialogue2": "Eu quero falar com quem estiver na nossa frente!",
-	"tabletop.dialogue3": "Sem problemas! A pessoa da frente é um...",
-	"tabletop.npcCreationBtn": "Clique para gerar um personagem"
+	"tabletop.dialogue3": "Sem problemas! <Gera um novo personagem único em um clique>",
+	"tabletop.npcCreationBtn": "Clique para gerar o personagem"
 }

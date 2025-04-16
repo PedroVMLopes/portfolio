@@ -4,43 +4,43 @@
             <div class="w-full flex justify-center"><img class="max-w-[280px] lg:max-w-[440px] rounded-full" src="https://i.imgur.com/zGkhIJu.png" alt="Image of a isometric 3D medieval city"></div>
             <div class="my-2 mx-8"></div>
             <div class="flex flex-col justify-center w-full">
-                <h1 class="pl-1 font-bold text-3xl mb-0">Tabletop Support</h1>
+                <h1 class="pl-1 font-bold text-3xl mb-0"> <fa-icon [icon]="faDiceD20"></fa-icon> Tabletop Support</h1>
                 <p class="my-4 ml-1">{{'tabletop.description' | translate }}</p>
                 <div class="flex flex-row">
-                    <div class="badge badge-primary">React</div>
-                    <div class="badge badge-primary mx-2">JavaScript</div>
-                    <div class="badge badge-primary">Electron</div>
+                    <div class="badge badge-neutral">React</div>
+                    <div class="badge badge-neutral mx-2">JavaScript</div>
+                    <div class="badge badge-neutral">Electron</div>
                 </div>
                 <div class="flex flex-row gap-2">
                     <a href="https://github.com/PedroVMLopes/desktop-companion" target="_blank">
-                        <button class="mt-4 btn btn-secondary text-base-300"><fa-icon [icon]="faGithub" class="text-xl"></fa-icon> {{'repository' | translate }} </button>
+                        <button class="mt-4 btn btn-primary text-base-300"><fa-icon [icon]="faGithub" class="text-xl"></fa-icon> {{'repository' | translate }} </button>
                     </a>
-                    <div class="tooltip tooltip-bottom" data-tip="Google Drive Link">
+                    <div class="tooltip tooltip-bottom tooltip-primary" data-tip="Google Drive Link">
                         <a href="https://drive.google.com/drive/folders/1ngA243r2AfNMAHVmCo6PaA6PJc0yROEc" target="_blank">
-                            <button class="mt-4 btn btn-secondary text-base-300">Download</button>
+                            <button class="mt-4 btn btn-primary text-base-300">Download</button>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
         <div id="tabletopDescriptionBoxes" class="grid grid-cols-1 gap-4">
-            <div tabindex="0" class="collapse collapse-plus bg-secondary text-secondary-content h-min shadow-xl">
+            <div tabindex="0" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
                 <input type="radio" name="my-accordion-1" checked="checked" />
-                <div class="collapse-title font-semibold text-center text-xl text-base-300 px-0">{{'tabletop.descriptionBoxes.mainFeatures.title' | translate }}</div>
+                <div class="collapse-title font-semibold text-xl text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.mainFeatures.title' | translate }}</div>
                 <div class="collapse-content text-sm">
                   Click the "Sign Up" button in the top right corner and follow the registration process.
                 </div>
             </div>
-            <div tabindex="1" class="collapse collapse-plus bg-secondary text-secondary-content h-min shadow-xl">
+            <div tabindex="1" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
                 <input type="radio" name="my-accordion-1"/>
-                <div class="collapse-title font-semibold text-center text-lg text-base-300 px-0">{{'tabletop.descriptionBoxes.devNotes.title' | translate }}</div>
+                <div class="collapse-title font-semibold text-lg text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.devNotes.title' | translate }}</div>
                 <div class="collapse-content text-sm">
                   Click the "Sign Up" button in the top right corner and follow the registration process.
                 </div>
             </div>
-            <div tabindex="2" class="collapse collapse-plus bg-secondary text-secondary-content h-min shadow-xl">
+            <div tabindex="2" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
                 <input type="radio" name="my-accordion-1"/>
-                <div class="collapse-title font-semibold text-center text-lg text-base-300 px-0">{{'tabletop.descriptionBoxes.toolsUsed.title' | translate }}</div>
+                <div class="collapse-title font-semibold text-lg text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.toolsUsed.title' | translate }}</div>
                 <div class="collapse-content text-sm">
                   Click the "Sign Up" button in the top right corner and follow the registration process.
                 </div>
@@ -90,9 +90,9 @@
                 </div>
             </div>
             <div id="characterCreator" class="rounded-3xl flex flex-col shadow-2xl bg-base-200">
-                <div class="flex flex-row items-center justify-evenly bg-secondary text-secondary-content p-4 rounded-t-3xl">
+                <div class="flex flex-row items-center bg-secondary text-secondary-content p-4 px-6 rounded-t-3xl">
                     <h1 class="font-semibold text-lg">{{'tabletop.npcCreationBtn' | translate }}</h1>
-                    <button class="btn btn-accent text-lg px-3">  <fa-icon [icon]="faPersonCirclePlus" class="animate-pulse ml-1"></fa-icon></button>
+                    <button class="btn btn-accent text-lg px-3 ml-3">  <fa-icon [icon]="faPersonCirclePlus" class="animate-pulse ml-1"></fa-icon></button>
                 </div>
                 <div class="flex justify-evenly">
                     <div class="flex w-full flex-col gap-4 my-3 px-4">
