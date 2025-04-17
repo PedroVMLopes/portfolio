@@ -16,5 +16,8 @@
 	"tabletop.dialogue1": "You join the queue at a crowded tavern...",
 	"tabletop.dialogue2": "I want to talk to whoever is in front of us!",
 	"tabletop.dialogue3": "No problem! <Generates a new unique character in one click>",
-	"tabletop.npcCreationBtn": "Click to generate the character"
+	"tabletop.npcCreationBtn": "Click to generate the character",
+	"tabletop.npcSocialClass": "Social Class: Bourgeois",
+	"tabletop.npcProfessionTitle": "Profession: ",
+	"tabletop.npcProfession": ["Stylist", "Noble blacksmith", "Jeweler", "Renowned Artist", "Architect", "Banker or Loan Shark", "Mine Owner", "Owner of Transport Companies", "Owner of a Craftsmen's Guild"]
 }

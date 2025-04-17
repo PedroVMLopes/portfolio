@@ -113,8 +113,12 @@
                         </div>
                         <div class="ml-2 md:ml-4 w-full h-14">
                             <h1 class="font-bold">Corrin Nightwind</h1>
-                            <h2>Classe Social: Burguês</h2>
+                            <h2>{{'tabletop.npcSocialClass' | translate }}</h2>
                         </div>
+                    </div>
+                    <div class="mt-4 flex flex-row gap-2 text-lg">
+                        <p>{{'tabletop.npcProfessionTitle' | translate }}</p>
+                        <h1 class="font-semibold">{{'tabletop.npcProfession.' + charProfessionIndex | translate }}</h1>
                     </div>
                     <div class="flex flex-col h-fit gap-4 mt-4 font-semibold">
                         <div class="flex flex-col w-full">
@@ -129,11 +133,11 @@
                             <p class="font-thin">A dificulade que o grupo terá para barganhar com ele</p>
                             <div class="flex flex-col sm:flex-row items-center w-full">
                                 <p class="w-32 self-start">Ganancioso</p> 
-                                <input type="range" min="0" max="100" [value]="charRange1" readonly class="range range-sm [--range-thumb:secondary] [--range-fill:0] w-full mx-3" /> 
+                                <input type="range" min="0" max="100" [value]="charRange2" readonly class="range range-sm [--range-thumb:secondary] [--range-fill:0] w-full mx-3" /> 
                                 <p class="sm:w-32 self-end">Generoso</p>
                             </div>
                         </div>
-                        <div>
+                        <div class="flex flex-col w-full">
                             <p class="font-thin">O quão fiel ele será à suas palavras</p>
                             <div class="flex flex-col sm:flex-row">
                                 <p class="w-32 self-start">Traiçoeiro</p>

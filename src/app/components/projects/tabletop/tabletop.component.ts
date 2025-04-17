@@ -21,6 +21,7 @@ export class TabletopComponent {
   charRange2 = 0;
   charRange3 = 0;
   charRange4 = 0;
+  charProfessionIndex = 0;
 
   createCharacter() {
     this.characterCreated = false;
@@ -30,6 +31,7 @@ export class TabletopComponent {
       this.charRange2 = Math.floor(Math.random() * 101);
       this.charRange3 = Math.floor(Math.random() * 101);
       this.charRange4 = Math.floor(Math.random() * 101);
+      this.charProfessionIndex = Math.floor(Math.random() * 9);
     }, 1000);
   }
 }
