@@ -89,12 +89,12 @@
                     <div class="chat-bubble chat-bubble-secondary text-base-300">{{'tabletop.dialogue3' | translate }}</div>
                 </div>
             </div>
-            <div id="characterCreator" class="rounded-3xl flex flex-col shadow-2xl bg-base-200">
+            <div id="characterCreator" class="rounded-3xl flex flex-col shadow-2xl bg-base-200 font-sans">
                 <div class="flex flex-row items-center bg-secondary text-secondary-content p-4 px-6 rounded-t-3xl">
                     <h1 class="font-semibold text-lg">{{'tabletop.npcCreationBtn' | translate }}</h1>
-                    <button class="btn btn-accent text-lg px-3 ml-3">  <fa-icon [icon]="faPersonCirclePlus" class="animate-pulse ml-1"></fa-icon></button>
+                    <button class="btn btn-accent text-lg px-3 ml-3" (click)="createCharacter()">  <fa-icon [icon]="faPersonCirclePlus" class="animate-pulse ml-1"></fa-icon> </button>
                 </div>
-                <div class="flex justify-evenly">
+                <div *ngIf="!characterCreated" class="flex justify-evenly">
                     <div class="flex w-full flex-col gap-4 my-3 px-4">
                         <div class="flex items-center gap-4">
                             <div class="skeleton h-16 w-16 shrink-0 rounded-full"></div>
@@ -104,6 +104,43 @@
                             </div>
                         </div>
                         <div class="skeleton h-32 w-full"></div>
+                    </div>
+                </div>
+                <div *ngIf="characterCreated" class="bg-base-200 p-4 rounded-b-box">
+                    <div class="avatar w-full">
+                        <div class="h-16 rounded-full shadow-md">
+                          <img src="https://cdn2.oceansbridge.com/2017/07/28070721/Head-of-an-Old-Ukranian-Peasant-Ivan-Nikolaevich-Kramskoy-Oil-Painting.jpg" />
+                        </div>
+                        <div class="ml-2 md:ml-4 w-full h-14">
+                            <h1 class="font-bold">Corrin Nightwind</h1>
+                            <h2>Classe Social: Burguês</h2>
+                        </div>
+                    </div>
+                    <div class="flex flex-col h-fit gap-4 mt-4 font-semibold">
+                        <div class="flex flex-col w-full">
+                            <p class="font-thin">Como ele tratará o grupo na primeira interação</p>
+                            <div class="flex flex-col sm:flex-row items-center w-full">
+                                <p class="w-32 self-start">Agressivo</p> 
+                                <input type="range" min="0" max="100" [value]="charRange1" readonly class="range range-sm [--range-thumb:secondary] [--range-fill:0] w-full mx-3" /> 
+                                <p class="sm:w-32 self-end">Amigável</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-col w-full">
+                            <p class="font-thin">A dificulade que o grupo terá para barganhar com ele</p>
+                            <div class="flex flex-col sm:flex-row items-center w-full">
+                                <p class="w-32 self-start">Ganancioso</p> 
+                                <input type="range" min="0" max="100" [value]="charRange1" readonly class="range range-sm [--range-thumb:secondary] [--range-fill:0] w-full mx-3" /> 
+                                <p class="sm:w-32 self-end">Generoso</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-thin">O quão fiel ele será à suas palavras</p>
+                            <div class="flex flex-col sm:flex-row">
+                                <p class="w-32 self-start">Traiçoeiro</p>
+                                <input type="range" min="0" max="100" [value]="charRange3" readonly class="range range-sm [--range-thumb:secondary] [--range-fill:0] w-full mx-3" />
+                                <p class="sm:w-32 self-end">Leal</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
