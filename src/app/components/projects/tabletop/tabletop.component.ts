@@ -32,6 +32,6 @@ export class TabletopComponent {
       this.charRange3 = Math.floor(Math.random() * 101);
       this.charRange4 = Math.floor(Math.random() * 101);
       this.charProfessionIndex = Math.floor(Math.random() * 9);
-    }, 1000);
+    }, 500);
   }
 }

@@ -19,5 +19,12 @@
 	"tabletop.npcCreationBtn": "Clique para gerar o personagem",
 	"tabletop.npcSocialClass": "Classe Social: Burguês",
 	"tabletop.npcProfessionTitle": "Profissão:",
-	"tabletop.npcProfession": ["Estilista", "Ferreiro Nobre", "Joalheiro", "Artista Renomado", "Arquiteto", "Banqueiro ou Ajiota", "Proprietário de Minas", "Dono de Companhias de Transporte", "Proprietário de uma guilda de artesãos"]
+	"tabletop.npcProfession": ["Estilista", "Ferreiro Nobre", "Joalheiro", "Artista Renomado", "Arquiteto", "Banqueiro ou Agiota", "Proprietário de Minas", "Dono de Companhias de Transporte", "Proprietário de uma guilda de artesãos"],
+	"tabletop.npcRange1": "Como ele tratará o grupo na primeira interação:",
+	"tabletop.npcRange1.ranges": ["Agressivo", "Amigável"],
+	"tabletop.npcRange2": "A dificuldade que o grupo terá para barganhar com ele:",
+	"tabletop.npcRange2.ranges": ["Ganancioso", "Generoso"],
+	"tabletop.npcRange3": "O quão fiel ele será à suas palavras:",
+	"tabletop.npcRange3.ranges": ["Traiçoeiro", "Leal"],
+	"tabletop.npcExtraText": "Versão Simplificada"
 }

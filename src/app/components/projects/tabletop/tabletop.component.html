@@ -59,7 +59,7 @@
                     <div class="chat-header">
                       Dungeon Master
                     </div>
-                    <div class="chat-bubble chat-bubble-secondary text-base-300">{{'tabletop.dialogue1' | translate }}</div>
+                    <div class="chat-bubble chat-bubble-primary text-base-300">{{'tabletop.dialogue1' | translate }}</div>
                 </div>
                 <div class="chat chat-start">
                     <div class="chat-image avatar">
@@ -73,7 +73,7 @@
                         {{'tabletop.bardName' | translate }}
                         <time class="text-xs opacity-50">Lv3</time>
                     </div>
-                    <div class="chat-bubble chat-bubble-secondary text-base-300">{{'tabletop.dialogue2' | translate }}</div>
+                    <div class="chat-bubble chat-bubble-primary text-base-300">{{'tabletop.dialogue2' | translate }}</div>
                 </div>
                 <div class="chat chat-end mb-2">
                     <div class="chat-image avatar">
@@ -86,10 +86,11 @@
                     <div class="chat-header">
                       Dungeon Master
                     </div>
-                    <div class="chat-bubble chat-bubble-secondary text-base-300">{{'tabletop.dialogue3' | translate }}</div>
+                    <div class="chat-bubble chat-bubble-primary text-base-300">{{'tabletop.dialogue3' | translate }}</div>
                 </div>
             </div>
-            <div id="characterCreator" class="rounded-3xl flex flex-col shadow-2xl bg-base-200 font-sans">
+            <div id="characterCreator" class="indicator rounded-3xl flex flex-col shadow-2xl bg-base-200 font-sans w-full">
+                <span class="indicator-item badge badge-accent mr-24">{{'tabletop.npcExtraText' | translate }}</span>
                 <div class="flex flex-row items-center bg-secondary text-secondary-content p-4 px-6 rounded-t-3xl">
                     <h1 class="font-semibold text-lg">{{'tabletop.npcCreationBtn' | translate }}</h1>
                     <button class="btn btn-accent text-lg px-3 ml-3" (click)="createCharacter()">  <fa-icon [icon]="faPersonCirclePlus" class="animate-pulse ml-1"></fa-icon> </button>
@@ -122,27 +123,27 @@
                     </div>
                     <div class="flex flex-col h-fit gap-4 mt-4 font-semibold">
                         <div class="flex flex-col w-full">
-                            <p class="font-thin">Como ele tratará o grupo na primeira interação</p>
+                            <p class="font-thin">{{'tabletop.npcRange1' | translate }}</p>
                             <div class="flex flex-col sm:flex-row items-center w-full">
-                                <p class="w-32 self-start">Agressivo</p> 
+                                <p class="w-32 self-start">{{'tabletop.npcRange1.ranges.0' | translate }}</p> 
                                 <input type="range" min="0" max="100" [value]="charRange1" readonly class="range range-sm [--range-thumb:secondary] [--range-fill:0] w-full mx-3" /> 
-                                <p class="sm:w-32 self-end">Amigável</p>
+                                <p class="sm:w-32 self-end">{{'tabletop.npcRange1.ranges.1' | translate }}</p>
                             </div>
                         </div>
                         <div class="flex flex-col w-full">
-                            <p class="font-thin">A dificulade que o grupo terá para barganhar com ele</p>
+                            <p class="font-thin">{{'tabletop.npcRange2' | translate }}</p>
                             <div class="flex flex-col sm:flex-row items-center w-full">
-                                <p class="w-32 self-start">Ganancioso</p> 
+                                <p class="w-32 self-start">{{'tabletop.npcRange2.ranges.0' | translate }}</p> 
                                 <input type="range" min="0" max="100" [value]="charRange2" readonly class="range range-sm [--range-thumb:secondary] [--range-fill:0] w-full mx-3" /> 
-                                <p class="sm:w-32 self-end">Generoso</p>
+                                <p class="sm:w-32 self-end">{{'tabletop.npcRange2.ranges.1' | translate }}</p>
                             </div>
                         </div>
                         <div class="flex flex-col w-full">
-                            <p class="font-thin">O quão fiel ele será à suas palavras</p>
+                            <p class="font-thin">{{'tabletop.npcRange3' | translate }}</p>
                             <div class="flex flex-col sm:flex-row">
-                                <p class="w-32 self-start">Traiçoeiro</p>
+                                <p class="w-32 self-start">{{'tabletop.npcRange3.ranges.0' | translate }}</p>
                                 <input type="range" min="0" max="100" [value]="charRange3" readonly class="range range-sm [--range-thumb:secondary] [--range-fill:0] w-full mx-3" />
-                                <p class="sm:w-32 self-end">Leal</p>
+                                <p class="sm:w-32 self-end">{{'tabletop.npcRange3.ranges.1' | translate }}</p>
                             </div>
                         </div>
                     </div>
