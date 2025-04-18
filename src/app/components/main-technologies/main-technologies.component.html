@@ -1,33 +1,68 @@
 <div class="m-[4%] lg:m-[8%] flex flex-col items-center">
     <div class="text-left w-full">
         <div class="">
-            <h1 class="text-3xl">Tecnologias Atuais</h1>
-            <h2 class="mt-2">Aqui estão listadas as tecnologias que eu utilizo com mais frequência. </h2>
+            <h1 class="text-3xl sm:text-4xl">{{'mainTechnologies.Title' | translate }}</h1>
+            <h2 class="mt-2 font-sans">{{'mainTechnologies.description' | translate }}</h2>
         </div>
-        <div class="my-4 w-full justify-center grid gap-2 grid-cols-1">
-            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-base-100 border border-secondary">
+        <div class="my-6 w-full justify-center grid gap-2 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-neutral text-neutral-content">
                 <p class="text-2xl rounded-box bg-neutral w-12 h-12 pt-2 text-secondary-content text-center"><fa-icon [icon]="faGlobe"></fa-icon></p>
-                <div class="font-sans ml-4">
-                    <h1 class="font-semibold">Web Fundamentals</h1>
-                    <h2 class="text-sm">HTML, CSS, JavaScript (ES6+)</h2>
+                <div class="font-sans ml-2">
+                    <h1 class="font-semibold text-nowrap">Web Fundamentals</h1>
+                    <h2 class="text-sm text-nowrap">HTML, CSS, JavaScript</h2>
                 </div>
             </div>
-            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-base-100 border border-neutral">
+            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-neutral text-neutral-content">
                 <p class="text-2xl rounded-box bg-neutral w-12 h-12 pt-2 text-secondary-content text-center"><fa-icon [icon]="faFigma"></fa-icon></p>
-                <div class="font-sans ml-4">
+                <div class="font-sans ml-2">
                     <h1 class="font-semibold">Figma</h1>
                     <h2 class="text-sm">Design Tool</h2>
                 </div>
             </div>
-            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-base-100 border border-secondary">
-                <p class="text-2xl rounded-box bg-neutral w-12 h-12 pt-2 text-secondary-content text-center"><fa-icon [icon]="faFigma"></fa-icon></p>
-                <div class="font-sans ml-4">
-                    <h1 class="font-semibold">Figma</h1>
-                    <h2 class="text-sm">Design Tool</h2>
+            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-neutral text-neutral-content">
+                <p class="text-2xl rounded-box bg-neutral w-12 h-12 pt-2 text-secondary-content text-center"><fa-icon [icon]="faCode"></fa-icon></p>
+                <div class="font-sans ml-2">
+                    <h1 class="font-semibold">TypeScript</h1>
+                    <h2 class="text-sm">Programming Lenguage</h2>
+                </div>
+            </div>
+            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-neutral text-neutral-content">
+                <p class="text-2xl rounded-box bg-neutral w-12 h-12 pt-2 text-secondary-content text-center"><fa-icon [icon]="faReact"></fa-icon></p>
+                <div class="font-sans ml-2">
+                    <h1 class="font-semibold">React</h1>
+                    <h2 class="text-sm">JavaScript Library</h2>
+                </div>
+            </div>
+            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-neutral text-neutral-content">
+                <p class="text-2xl rounded-box bg-neutral w-12 h-12 pt-2 text-secondary-content text-center"><fa-icon [icon]="faWater"></fa-icon></p>
+                <div class="font-sans ml-2">
+                    <h1 class="font-semibold">Tailwind</h1>
+                    <h2 class="text-sm">CSS Framework</h2>
+                </div>
+            </div>
+            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-neutral text-neutral-content">
+                <p class="text-2xl rounded-box bg-neutral w-12 h-12 pt-2 text-secondary-content text-center"><fa-icon [icon]="faGit"></fa-icon></p>
+                <div class="font-sans ml-2">
+                    <h1 class="font-semibold">Git</h1>
+                    <h2 class="text-sm">Version Control</h2>
+                </div>
+            </div>
+            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-neutral text-neutral-content">
+                <p class="text-2xl rounded-box bg-neutral w-12 h-12 pt-2 text-secondary-content text-center"><fa-icon [icon]="faDatabase"></fa-icon></p>
+                <div class="font-sans ml-2">
+                    <h1 class="font-semibold">Supabase</h1>
+                    <h2 class="text-sm">Database</h2>
+                </div>
+            </div>
+            <div class="flex flex-row items-center shadow-xl p-2 rounded-box bg-neutral text-neutral-content">
+                <p class="text-2xl rounded-box bg-neutral w-12 h-12 pt-2 text-secondary-content text-center"><fa-icon [icon]="faNode"></fa-icon></p>
+                <div class="font-sans ml-2">
+                    <h1 class="font-semibold">Node.js</h1>
+                    <h2 class="text-sm">Back-End Tool</h2>
                 </div>
             </div>
         </div>
-        <button class="btn btn-primary rounded-full">Lista Completa</button>
+        <button class="btn btn-primary rounded-full">{{'mainTechnologies.fullListButton' | translate }}</button>
     </div>
 
 </div>
