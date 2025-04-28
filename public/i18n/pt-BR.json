@@ -30,5 +30,6 @@
 	"tabletop.npcRange3": "O quão fiel ele será à suas palavras:",
 	"tabletop.npcRange3.ranges": ["Traiçoeiro", "Leal"],
 	"tabletop.npcExtraText": "Versão Simplificada",
-	"footer.aboutMe": "Desenvolvedor focado em Web, apaixonado por explorar novas tecnologias e criar soluções criativas e elegantes, sempre priorizando a performance."
+	"footer.aboutMe": "Desenvolvedor focado em Web, apaixonado por explorar novas tecnologias e criar soluções criativas e elegantes, sempre priorizando a performance.",
+	"footer.developmentText": "Esse é um projeto em constante desenvolvimento. Espero ver você de volta por aqui no futuro"
 }

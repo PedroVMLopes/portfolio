@@ -30,5 +30,6 @@
 	"tabletop.npcRange3": "How true he will be to his words:",
 	"tabletop.npcRange3.ranges": ["Treacherous", "Loyal"],
 	"tabletop.npcExtraText": "Simplified Version",
-	"footer.aboutMe": "Web-focused developer, passionate about exploring new technologies and creating creative and elegant solutions, always prioritizing performance."
+	"footer.aboutMe": "Web-focused developer, passionate about exploring new technologies and creating creative and elegant solutions, always prioritizing performance.",
+	"footer.developmentText": "This project is under constant development. I hope to see you back here in the future"
 }
