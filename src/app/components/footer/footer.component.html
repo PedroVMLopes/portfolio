@@ -4,9 +4,9 @@
     </div>
     <div class="text-secondary-content sm:p-10 px-4 py-10 grid grid-cols-1 sm:grid-cols-2 items-center justify-center">
         <div class="flex flex-col">
-            <p class="text-2xl">About Me</p>
+            <p class="text-2xl">{{'footer.aboutMe' | translate }}</p>
             <div class="divider divider-vertical divider-accent"></div>
-            <p>{{'footer.aboutMe' | translate }}</p>
+            <p>{{'footer.aboutMeText' | translate }}</p>
         </div>
         <div class="flex flex-col justify-center text-lg sm:ml-20 mt-12 gap-4 border bg-base-200 text-base-content rounded-xl p-4">
             <div class="flex flex-row">
@@ -18,15 +18,14 @@
             <div class="flex flex-row">
                 <p class="font-sans">+55 (11) 952304438</p>
             </div>
-            <div class="flex flex-row">
-                <a href="https://github.com/PedroVMLopes" target="_blank" rel="noopener noreferrer">github.com/PedroVMLopes</a>
-            </div>
-            <div class="flex flex-row">
-                <a href="https://www.linkedin.com/in/pedro-vitor-miranda-lopes-343056185/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <div class="flex flex-row text-3xl gap-6">
+                <a href="https://github.com/PedroVMLopes" target="_blank" rel="noopener noreferrer"> <fa-icon [icon]="faGithub"></fa-icon></a>
+                <a href="https://www.linkedin.com/in/pedro-vitor-miranda-lopes-343056185/" target="_blank" rel="noopener noreferrer"> <fa-icon [icon]="faLinkedin"></fa-icon></a>
+                <a href="https://www.instagram.com/pedrovmlopes/" target="_blank" rel="noopener noreferrer"> <fa-icon [icon]="faInstagram"></fa-icon></a>
             </div>
         </div>
     </div>
     <p class="text-center pt-2 pb-4 text-sm opacity-50 px-4">
-        © 2025 | Pedro Vitor Miranda Lopes - Desenvolvedor Web | Todos os direitos reservados
+        {{'footer.copyright' | translate }}
     </p>
 </div>

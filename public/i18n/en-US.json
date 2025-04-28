@@ -7,7 +7,7 @@
 	"projects.moreInfoBtn": "More Info",
 	"projects.repositoryBtn": "Repository",
 	"repository": "Repository",
-	"seeMyProjectsButton": "See my projects",
+	"seeMyProjectsButton": "See more",
 	"mainTechnologies.Title": "Current Technologies",
 	"mainTechnologies.description": "Here is a list of the technologies that I use most frequently.",
 	"mainTechnologies.fullListButton": "Full List",
@@ -30,6 +30,8 @@
 	"tabletop.npcRange3": "How true he will be to his words:",
 	"tabletop.npcRange3.ranges": ["Treacherous", "Loyal"],
 	"tabletop.npcExtraText": "Simplified Version",
-	"footer.aboutMe": "Web-focused developer, passionate about exploring new technologies and creating creative and elegant solutions, always prioritizing performance.",
-	"footer.developmentText": "This project is under constant development. I hope to see you back here in the future"
+	"footer.aboutMeText": "Web-focused developer, passionate about exploring new technologies and creating creative and elegant solutions, always prioritizing performance.",
+	"footer.aboutMe": "About Me",
+	"footer.developmentText": "This project is under constant development. I hope to see you back here in the future",
+	"footer.copyright": "© 2025 | Planning, Design & Development Mady By - Pedro Vitor Miranda Lopes | All Rights Reserved "
 }

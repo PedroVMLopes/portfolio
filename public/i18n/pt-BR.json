@@ -7,7 +7,7 @@
 	"projects.moreInfoBtn": "Saiba Mais",
 	"projects.repositoryBtn": "Repositório",
 	"repository": "Repositório",
-	"seeMyProjectsButton": "Veja meus projetos",
+	"seeMyProjectsButton": "Veja mais",
 	"mainTechnologies.Title": "Tecnologias Atuais",
 	"mainTechnologies.description": "Aqui estão listadas as tecnologias que eu utilizo com mais frequência.",
 	"mainTechnologies.fullListButton": "Lista Completa",
@@ -30,6 +30,8 @@
 	"tabletop.npcRange3": "O quão fiel ele será à suas palavras:",
 	"tabletop.npcRange3.ranges": ["Traiçoeiro", "Leal"],
 	"tabletop.npcExtraText": "Versão Simplificada",
-	"footer.aboutMe": "Desenvolvedor focado em Web, apaixonado por explorar novas tecnologias e criar soluções criativas e elegantes, sempre priorizando a performance.",
-	"footer.developmentText": "Esse é um projeto em constante desenvolvimento. Espero ver você de volta por aqui no futuro"
+	"footer.aboutMeText": "Desenvolvedor focado em Web, apaixonado por explorar novas tecnologias e criar soluções criativas e elegantes, sempre priorizando a performance.",
+	"footer.aboutMe": "Sobre Mim",
+	"footer.developmentText": "Esse é um projeto em constante desenvolvimento. Espero ver você de volta por aqui no futuro",
+	"footer.copyright": "© 2025 | Planejamento, Design e Desenvolvimento Feito Por - Pedro Vitor Miranda Lopes | Todos os direitos reservados "
 }
