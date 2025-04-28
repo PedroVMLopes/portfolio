@@ -8,11 +8,12 @@ import { TabletopComponent } from "./components/projects/tabletop/tabletop.compo
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TechStackComponent } from './components/tech-stack/tech-stack.component';
 import { MainTechnologiesComponent } from './components/main-technologies/main-technologies.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavbarComponent, IntroductionComponent, TranslateModule, TabletopComponent, FontAwesomeModule, TechStackComponent, MainTechnologiesComponent],
+  imports: [NavbarComponent, IntroductionComponent, TranslateModule, TabletopComponent, FontAwesomeModule, TechStackComponent, MainTechnologiesComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

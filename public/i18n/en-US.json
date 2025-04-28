@@ -29,5 +29,6 @@
 	"tabletop.npcRange2.ranges": ["Greedy", "Generous"],
 	"tabletop.npcRange3": "How true he will be to his words:",
 	"tabletop.npcRange3.ranges": ["Treacherous", "Loyal"],
-	"tabletop.npcExtraText": "Simplified Version"
+	"tabletop.npcExtraText": "Simplified Version",
+	"footer.aboutMe": "Web-focused developer, passionate about exploring new technologies and creating creative and elegant solutions, always prioritizing performance."
 }

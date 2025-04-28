@@ -29,5 +29,6 @@
 	"tabletop.npcRange2.ranges": ["Ganancioso", "Generoso"],
 	"tabletop.npcRange3": "O quão fiel ele será à suas palavras:",
 	"tabletop.npcRange3.ranges": ["Traiçoeiro", "Leal"],
-	"tabletop.npcExtraText": "Versão Simplificada"
+	"tabletop.npcExtraText": "Versão Simplificada",
+	"footer.aboutMe": "Desenvolvedor focado em Web, apaixonado por explorar novas tecnologias e criar soluções criativas e elegantes, sempre priorizando a performance."
 }
