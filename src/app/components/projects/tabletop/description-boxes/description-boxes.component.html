@@ -71,7 +71,7 @@
         <input type="radio" name="my-accordion-1" checked/>
         <div class="collapse-title text-xl px-0 pl-4 sm:pl-6 text-base-200">{{'tabletop.descriptionBoxes.toolsUsed.title' | translate }}</div>
         <div class="collapse-content text-sm px-2 sm:px-4">
-            <div class="grid grid-cols-1 gap-2">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
                 <div *ngFor="let tech of technologies" class="list bg-primary rounded-box text-primary-content p-4">
                     <h1 class="font-semibold">{{ tech.name }}</h1>
                     <h2 class="text-sm opacity-60">{{ tech.function | translate }}</h2>
