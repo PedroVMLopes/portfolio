@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Paprika&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
 
-@plugin "daisyui/theme" {
+:root:has(input.theme-controller[value=portfolioDark]:checked),[data-theme="portfolioDark"] {
     name: "portfolioDark";
     default: false;
     prefersdark: false;
@@ -39,7 +39,7 @@
     --noise: 0;
 }
   
-:root:has(input.theme-controller[value=customTheme]:checked),[data-theme="customTheme"] {
+:root:has(input.theme-controller[value=portfolio]:checked),[data-theme="portfolio"] {
     name: "portfolio";
     default: true;
     prefersdark: false;
