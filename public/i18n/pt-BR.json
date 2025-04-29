@@ -33,5 +33,12 @@
 	"footer.aboutMeText": "Desenvolvedor focado em Web, apaixonado por explorar novas tecnologias e criar soluções criativas e elegantes, sempre priorizando a performance.",
 	"footer.aboutMe": "Sobre Mim",
 	"footer.developmentText": "Esse é um projeto em constante desenvolvimento. Espero ver você de volta por aqui no futuro",
-	"footer.copyright": "© 2025 | Planejamento, Design e Desenvolvimento Feito Por - Pedro Vitor Miranda Lopes | Todos os direitos reservados "
+	"footer.copyright": "© 2025 | Planejamento, Design e Desenvolvimento Feito Por - Pedro Vitor Miranda Lopes | Todos os direitos reservados ",
+	"descriptionBoxes.box1.title": "Funções Principais",
+	"descriptionBoxes.box1.text1": "Menu lateral contendo informações dos jogadores e inimigos, permitindo manipulação de dados em tempo real",
+	"descriptionBoxes.box1.text2": "Lista completa dos testes de habilidades do sistema D&D",
+	"descriptionBoxes.box1.text3": "Lista completa das perícias do D&D, que são alteradas dinâmicamente de acordo com a seleção da habilidade",
+	"descriptionBoxes.box1.text4": "Botão que permite rolar automaticamente as iniciativas de todos os jogadores",
+	"descriptionBoxes.box2.title": "Criador de Personagens",
+	"descriptionBoxes.box2.text1": ""
 }

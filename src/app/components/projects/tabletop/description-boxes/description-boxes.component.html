@@ -1,26 +1,49 @@
 <div id="tabletopDescriptionBoxes" class="grid grid-cols-1 gap-4">
-    <div tabindex="0" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
+    <div tabindex="0" class="collapse collapse-arrow h-min bg-base-100 border-2 border-secondary">
         <input type="radio" name="my-accordion-1" checked="checked" />
-        <div class="collapse-title font-semibold text-xl text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.mainFeatures.title' | translate }}</div>
-        <div class="collapse-content text-sm">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 py-2 bg-secondary text-secondary-content rounded-lg">
-                <img src="assets/rpvMontagemDarkBg.png" class="w-[80%]" alt="PrintScreens of the pages of the aplication"/>
+        <div class="collapse-title text-2xl px-0 pl-4">{{'tabletop.descriptionBoxes.mainFeatures.title' | translate }}</div>
+        <div class="collapse-content">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-6 rounded-lg">
+                <div class="flex justify-center items-center">
+                    <ng-container [ngSwitch]="currentSlideOfBox1">
+                        <img *ngSwitchCase="0" src="assets/rpvMainCortado.png" class="rounded-md shadow-xl" alt="PrintScreens of the pages of the aplication"/>
+                        <img *ngSwitchCase="1" src="assets/rpvFichasNpc.png" class="rounded-md shadow-xl" alt="PrintScreens of the pages of the aplication"/>
+                    </ng-container>
+                </div>
                 <div class="flex flex-col">
-                    <div class="flex w-full justify-center gap-2 py-2">
-                        <button (click)="selectSlide(0)" class="btn btn-sm btn-outline" [class.btn-active]="currentSlideOfBox1 === 0">Página Inicial</button>
-                        <button (click)="selectSlide(1)" class="btn btn-sm btn-outline" [class.btn-active]="currentSlideOfBox1 === 1">Página Inicial</button>
-                        <button (click)="selectSlide(2)" class="btn btn-sm btn-outline" [class.btn-active]="currentSlideOfBox1 === 2">Página Inicial</button>
+                    <div class="flex flex-col md:flex-row w-full justify-center gap-2">
+                        <button (click)="selectSlide(0)" class="btn btn-sm btn-outline btn-secondary" [class.btn-active]="currentSlideOfBox1 === 0">{{'descriptionBoxes.box1.title' | translate}}</button>
+                        <button (click)="selectSlide(1)" class="btn btn-sm btn-outline btn-secondary" [class.btn-active]="currentSlideOfBox1 === 1">{{'descriptionBoxes.box2.title' | translate}}</button>
                     </div>
-                    <div class="relative overflow-hidden">
+                    <div class="relative overflow-hidden mt-2">
                         <ng-container [ngSwitch]="currentSlideOfBox1">
                             <div *ngSwitchCase="0">
-                                <h1>Teste 0</h1>
+                                <ul class="flex flex-col gap-2">
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                        <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
+                                        <p>{{'descriptionBoxes.box1.text1' | translate}}</p>
+                                    </li>
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                        <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
+                                        <p>{{'descriptionBoxes.box1.text2' | translate}}</p>
+                                    </li>
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                        <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
+                                        <p>{{'descriptionBoxes.box1.text3' | translate}}</p>
+                                    </li>
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                        <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
+                                        <p>{{'descriptionBoxes.box1.text4' | translate}}</p>
+                                    </li>
+                                </ul>
                             </div>
                             <div *ngSwitchCase="1">
-                                <h1>Teste 1</h1>
-                            </div>
-                            <div *ngSwitchCase="2">
-                                <h1>Teste 2</h1>
+                                <ul class="flex flex-col gap-2">
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                        <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
+                                        <p>{{'descriptionBoxes.box2.text1' | translate}}</p>
+                                    </li>
+                                </ul>
                             </div>
                         </ng-container>
                     </div>

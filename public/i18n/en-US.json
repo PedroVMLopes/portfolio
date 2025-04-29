@@ -33,5 +33,11 @@
 	"footer.aboutMeText": "Web-focused developer, passionate about exploring new technologies and creating creative and elegant solutions, always prioritizing performance.",
 	"footer.aboutMe": "About Me",
 	"footer.developmentText": "This project is under constant development. I hope to see you back here in the future",
-	"footer.copyright": "© 2025 | Planning, Design & Development Mady By - Pedro Vitor Miranda Lopes | All Rights Reserved "
+	"footer.copyright": "© 2025 | Planning, Design & Development Mady By - Pedro Vitor Miranda Lopes | All Rights Reserved ",
+	"descriptionBoxes.box1.title": "Main Features",
+	"descriptionBoxes.box1.text1": "Side menu containing player and enemy information, allowing real-time data manipulation",
+	"descriptionBoxes.box1.text2": "Complete list of D&D system skill checks",
+	"descriptionBoxes.box1.text3": "Complete list of D&D skills, which change dynamically based on skill selection",
+	"descriptionBoxes.box1.text4": "Button that allows you to automatically roll all players' initiatives",
+	"descriptionBoxes.box2.title": "Character Creator"
 }
