@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Paprika&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
 
 :root:has(input.theme-controller[value=customTheme]:checked),[data-theme="customTheme"] {
+    name: "portfolio";
+    default: true;
+    prefersdark: false;
     color-scheme: "light";
     --color-base-100: oklch(98% 0.016 73.684);
     --color-base-200: oklch(95% 0.038 75.164);
@@ -31,7 +34,7 @@
     --radius-box: 1rem;
     --size-selector: 0.28125rem;
     --size-field: 0.25rem;
-    --border: 2px;
+    --border: 1px;
     --depth: 1;
     --noise: 0;
 }
@@ -70,7 +73,7 @@
 }
 
 .backgroundTabletop {
-    background-image: url('../public/bg-bento-tabletop6.svg');
+    background-image: url('../public/bg-bento-tabletop.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

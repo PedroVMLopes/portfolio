@@ -1,8 +1,20 @@
 <div id="tabletopDescriptionBoxes" class="grid grid-cols-1 gap-4">
-    <div tabindex="0" class="collapse collapse-arrow h-min bg-base-100 border-2 border-secondary">
-        <input type="checkbox" name="my-accordion-1" />
-        <div class="collapse-title text-xl px-0 pl-4">{{'tabletop.descriptionBoxes.mainFeatures.title' | translate }}</div>
-        <div class="collapse-content">
+    <div tabindex="0" class="collapse collapse-arrow h-min backgroundTabletop">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title text-xl px-0 pl-4 sm:pl-6 text-base-200">{{'tabletop.descriptionBoxes.devNotes.title' | translate }}</div>
+        <div class="collapse-content px-2 sm:px-4">
+          <div class="mockup-code w-full bg-primary">
+            <pre data-prefix="$" class="px-2 text-justify text-accent"><code>npm run dev-notes</code></pre>
+            <pre data-prefix=">" class="px-2 text-justify"><code class="text-wrap">{{'tabletop.descriptionBoxes.devNotes.codeTitle' | translate }}</code></pre>
+            <pre data-prefix="~" class="px-2 text-justify"><code class="text-wrap">{{'tabletop.descriptionBoxes.devNotes.codeText1' | translate }}</code></pre>
+            <pre data-prefix="~" class="px-2 text-justify"><code class="text-wrap">{{'tabletop.descriptionBoxes.devNotes.codeText2' | translate }}</code></pre>
+          </div>
+        </div>
+    </div>
+    <div tabindex="1" class="collapse collapse-arrow h-min bg-base-100 backgroundTabletop">
+        <input type="radio" name="my-accordion-1" />
+        <div class="collapse-title text-xl px-0 pl-4 sm:pl-6 text-base-200">{{'tabletop.descriptionBoxes.mainFeatures.title' | translate }}</div>
+        <div class="collapse-content px-2 sm:px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 py-6 rounded-lg">
                 <div class="flex justify-center items-center">
                     <ng-container [ngSwitch]="currentSlideOfBox1">
@@ -19,19 +31,19 @@
                         <ng-container [ngSwitch]="currentSlideOfBox1">
                             <div *ngSwitchCase="0">
                                 <ul class="flex flex-col gap-2">
-                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-primary text-secondary-content rounded-box shadow-xl">
                                         <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
                                         <p>{{'descriptionBoxes.box1.text1' | translate}}</p>
                                     </li>
-                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-primary text-secondary-content rounded-box shadow-xl">
                                         <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
                                         <p>{{'descriptionBoxes.box1.text2' | translate}}</p>
                                     </li>
-                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-primary text-secondary-content rounded-box shadow-xl">
                                         <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
                                         <p>{{'descriptionBoxes.box1.text3' | translate}}</p>
                                     </li>
-                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-primary text-secondary-content rounded-box shadow-xl">
                                         <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
                                         <p>{{'descriptionBoxes.box1.text4' | translate}}</p>
                                     </li>
@@ -39,11 +51,11 @@
                             </div>
                             <div *ngSwitchCase="1">
                                 <ul class="flex flex-col gap-2">
-                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-primary text-secondary-content rounded-box shadow-xl">
                                         <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
                                         <p>{{'descriptionBoxes.box2.text1' | translate}}</p>
                                     </li>
-                                    <li class="flex flex-row gap-4 items-center p-4 bg-secondary text-secondary-content rounded-box shadow-xl">
+                                    <li class="flex flex-row gap-4 items-center p-4 bg-primary text-secondary-content rounded-box shadow-xl">
                                         <fa-icon [icon]="faFeather" class="text-accent"></fa-icon>
                                         <p>{{'descriptionBoxes.box2.text2' | translate}}</p>
                                     </li>
@@ -55,18 +67,17 @@
             </div>
         </div>
     </div>
-    <div tabindex="1" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
-        <input type="checkbox" name="my-accordion-1"/>
-        <div class="collapse-title font-semibold text-lg text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.devNotes.title' | translate }}</div>
-        <div class="collapse-content text-sm">
-          Click the "Sign Up" button in the top right corner and follow the registration process.
-        </div>
-    </div>
-    <div tabindex="2" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
-        <input type="checkbox" name="my-accordion-1"/>
-        <div class="collapse-title font-semibold text-lg text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.toolsUsed.title' | translate }}</div>
-        <div class="collapse-content text-sm">
-          Click the "Sign Up" button in the top right corner and follow the registration process.
+    <div tabindex="2" class="collapse collapse-arrow h-min bg-base-100 backgroundTabletop">
+        <input type="radio" name="my-accordion-1" checked/>
+        <div class="collapse-title text-xl px-0 pl-4 sm:pl-6 text-base-200">{{'tabletop.descriptionBoxes.toolsUsed.title' | translate }}</div>
+        <div class="collapse-content text-sm px-2 sm:px-4">
+            <div class="grid grid-cols-1 gap-2">
+                <div *ngFor="let tech of technologies" class="list bg-primary rounded-box text-primary-content p-4">
+                    <h1 class="font-semibold">{{ tech.name }}</h1>
+                    <h2 class="text-sm opacity-60">{{ tech.function | translate }}</h2>
+                    <p class="list-col-wrap text-xs mt-2">"{{ tech.description | translate }}"</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
