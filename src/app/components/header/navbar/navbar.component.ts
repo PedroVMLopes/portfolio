@@ -22,6 +22,7 @@ export class NavbarComponent {
 
   isEnglish = false;
   showToast = false;
+  isDarkTheme = false;
 
   constructor(private translate: TranslateService) {
     this.isEnglish = this.translate.currentLang === 'en-US';
@@ -53,6 +54,12 @@ export class NavbarComponent {
         this.showToast = false;
       }, 3000);
     })
+  }
+
+  toggleTheme(event: Event): void {
+    const isChecked = (event.target as HTMLInputElement).checked;
+    const newTheme = isChecked ? 'portfolioDark' : 'portfolio';
+    document.documentElement.setAttribute('data-theme', newTheme);
   }
 }
 
