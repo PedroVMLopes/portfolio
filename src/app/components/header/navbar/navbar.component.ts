@@ -30,7 +30,7 @@ export class NavbarComponent {
 
   toggleLanguage() {
     this.isEnglish = !this.isEnglish;
-    const newLang = this.isEnglish ? 'en-US' : 'pt-BR';
+    const newLang = this.isEnglish ? 'en-US' : 'pt';
     this.translate.use(newLang);
   }
 
