@@ -40,5 +40,6 @@
 	"descriptionBoxes.box1.text3": "Lista completa das perícias do D&D, que são alteradas dinâmicamente de acordo com a seleção da habilidade",
 	"descriptionBoxes.box1.text4": "Botão que permite rolar automaticamente as iniciativas de todos os jogadores",
 	"descriptionBoxes.box2.title": "Criador de Personagens",
-	"descriptionBoxes.box2.text1": ""
+	"descriptionBoxes.box2.text1": "Dados estáticos: Base de dados robusta com estatísticas de personagens de variados modelos",
+	"descriptionBoxes.box2.text2": "Dados orgânicos: Criador de personagens que permite, com o pressionar de um botão, criar características únicas para personagens, incluindo: Traços de Comportamento, Profissão ou Ocupação, Uma característica única e possível envolvimento com o crime"
 }

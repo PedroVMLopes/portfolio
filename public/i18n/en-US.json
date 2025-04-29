@@ -39,5 +39,7 @@
 	"descriptionBoxes.box1.text2": "Complete list of D&D system skill checks",
 	"descriptionBoxes.box1.text3": "Complete list of D&D skills, which change dynamically based on skill selection",
 	"descriptionBoxes.box1.text4": "Button that allows you to automatically roll all players' initiatives",
-	"descriptionBoxes.box2.title": "Character Creator"
+	"descriptionBoxes.box2.title": "Character Creator",
+	"descriptionBoxes.box2.text1": "Static Data: Robust database with character statistics from various models",
+	"descriptionBoxes.box2.text2": "Organic Data: Character creator that allows you to create unique characteristics for characters at the press of a button, including: Behavioral Traits, Profession or Occupation, one unique characteristic and possible involvement with crime"
 }
