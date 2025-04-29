@@ -21,8 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
 export class AppComponent {
   title = 'portfolio';
   constructor(private translate: TranslateService) {
-    this.translate.addLangs(['pt-BR', 'en-US']);
-    this.translate.setDefaultLang('pt-BR');
+    this.translate.addLangs(['pt', 'en-US']);
+    this.translate.setDefaultLang('pt');
     this.translate.use(this.translate.getBrowserLang() || "en-US");
   }
 
