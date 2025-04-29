@@ -24,29 +24,7 @@
             </div>
         </div>
 
-        <div id="tabletopDescriptionBoxes" class="grid grid-cols-1 gap-4">
-            <div tabindex="0" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
-                <input type="radio" name="my-accordion-1" checked="checked" />
-                <div class="collapse-title font-semibold text-xl text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.mainFeatures.title' | translate }}</div>
-                <div class="collapse-content text-sm">
-                  Click the "Sign Up" button in the top right corner and follow the registration process.
-                </div>
-            </div>
-            <div tabindex="1" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
-                <input type="radio" name="my-accordion-1"/>
-                <div class="collapse-title font-semibold text-lg text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.devNotes.title' | translate }}</div>
-                <div class="collapse-content text-sm">
-                  Click the "Sign Up" button in the top right corner and follow the registration process.
-                </div>
-            </div>
-            <div tabindex="2" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
-                <input type="radio" name="my-accordion-1"/>
-                <div class="collapse-title font-semibold text-lg text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.toolsUsed.title' | translate }}</div>
-                <div class="collapse-content text-sm">
-                  Click the "Sign Up" button in the top right corner and follow the registration process.
-                </div>
-            </div>
-        </div>
+        <app-description-boxes></app-description-boxes>
 
         <div id="tabletopCard_bottom" class="grid grid-cols-1 gap-16 items-end">
             <div id="chatBox" class="rounded-box flex flex-col justify-evenly px-4 h-full">

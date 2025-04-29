@@ -4,10 +4,11 @@ import { faPersonCirclePlus, faDiceD20 } from '@fortawesome/free-solid-svg-icons
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { TranslateModule } from '@ngx-translate/core';
 import { NgIf } from '@angular/common';
+import { DescriptionBoxesComponent } from './description-boxes/description-boxes.component';
 
 @Component({
   selector: 'app-tabletop',
-  imports: [FontAwesomeModule, TranslateModule, NgIf],
+  imports: [FontAwesomeModule, TranslateModule, NgIf, DescriptionBoxesComponent],
   templateUrl: './tabletop.component.html',
   styleUrl: './tabletop.component.scss'
 })
