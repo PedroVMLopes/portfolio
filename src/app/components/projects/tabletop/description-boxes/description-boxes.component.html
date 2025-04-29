@@ -3,7 +3,29 @@
         <input type="radio" name="my-accordion-1" checked="checked" />
         <div class="collapse-title font-semibold text-xl text-base-300 px-0 pl-4">{{'tabletop.descriptionBoxes.mainFeatures.title' | translate }}</div>
         <div class="collapse-content text-sm">
-          <img src="assets/rpvMontagemDarkBg.png" alt="PrintScreens of the RPG aplication">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 py-2 bg-secondary text-secondary-content rounded-lg">
+                <img src="assets/rpvMontagemDarkBg.png" class="w-[80%]" alt="PrintScreens of the pages of the aplication"/>
+                <div class="flex flex-col">
+                    <div class="flex w-full justify-center gap-2 py-2">
+                        <button (click)="selectSlide(0)" class="btn btn-sm btn-outline" [class.btn-active]="currentSlideOfBox1 === 0">Página Inicial</button>
+                        <button (click)="selectSlide(1)" class="btn btn-sm btn-outline" [class.btn-active]="currentSlideOfBox1 === 1">Página Inicial</button>
+                        <button (click)="selectSlide(2)" class="btn btn-sm btn-outline" [class.btn-active]="currentSlideOfBox1 === 2">Página Inicial</button>
+                    </div>
+                    <div class="relative overflow-hidden">
+                        <ng-container [ngSwitch]="currentSlideOfBox1">
+                            <div *ngSwitchCase="0">
+                                <h1>Teste 0</h1>
+                            </div>
+                            <div *ngSwitchCase="1">
+                                <h1>Teste 1</h1>
+                            </div>
+                            <div *ngSwitchCase="2">
+                                <h1>Teste 2</h1>
+                            </div>
+                        </ng-container>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div tabindex="1" class="collapse collapse-arrow bg-secondary text-secondary-content h-min">
