@@ -13,7 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavbarComponent, IntroductionComponent, TranslateModule, TabletopComponent, FontAwesomeModule, TechStackComponent, MainTechnologiesComponent, FooterComponent],
+  imports: [NavbarComponent, IntroductionComponent, TranslateModule, TabletopComponent, FontAwesomeModule, MainTechnologiesComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
