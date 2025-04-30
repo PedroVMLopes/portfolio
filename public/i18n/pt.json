@@ -19,7 +19,7 @@
 	"tabletop.descriptionBoxes.devNotes.codeText2": "Queria uma ferramenta que tornasse o jogo e a preparação mais eficientes sem sacrificar a alma criativa do jogo.",
 	"tabletop.descriptionBoxes.mainFeatures.title": "Funcionalidades",
 	"tabletop.descriptionBoxes.toolsUsed.title": "Tecnologias Utilizadas",
-	"tabletop.descriptionBoxes.toolsUsed.ReactFunc": "Framework Frontend",
+	"tabletop.descriptionBoxes.toolsUsed.ReactFunc": "Framework",
 	"tabletop.descriptionBoxes.toolsUsed.ReactDesc": "Escolhida pela sua flexibilidade, componentes reutilizáveis e grande ecossistema de bibliotecas que aceleram o desenvolvimento.",
 	"tabletop.descriptionBoxes.toolsUsed.JSFunc": "Linguagem de Programação",
 	"tabletop.descriptionBoxes.toolsUsed.JSDesc": "Utilizada para manter uma base de código unificada entre frontend e backend, simplificando a manutenção",

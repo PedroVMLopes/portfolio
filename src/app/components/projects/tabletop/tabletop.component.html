@@ -8,22 +8,22 @@
                 <p class="my-4 ml-1">{{'tabletop.description' | translate }}</p>
                 <div class="flex flex-col sm:flex-row gap-2">
                     <div class="flex gap-2">
-                        <div class="badge badge-neutral">React</div>
-                        <div class="badge badge-neutral">JavaScript</div>
+                        <div class="badge badge-neutral text-secondary-content">React</div>
+                        <div class="badge badge-neutral text-secondary-content">JavaScript</div>
                     </div>
                     <div class="flex gap-2">
-                        <div class="badge badge-neutral">Electron</div>
-                        <div class="badge badge-neutral">Tailwind</div>
-                        <div class="badge badge-neutral">DaisyUI</div>
+                        <div class="badge badge-neutral text-secondary-content">Electron</div>
+                        <div class="badge badge-neutral text-secondary-content">Tailwind</div>
+                        <div class="badge badge-neutral text-secondary-content">DaisyUI</div>
                     </div>
                 </div>
                 <div class="flex flex-row gap-2">
                     <a href="https://github.com/PedroVMLopes/desktop-companion" target="_blank">
-                        <button class="mt-4 btn btn-primary text-base-300"><fa-icon [icon]="faGithub" class="text-xl"></fa-icon> {{'repository' | translate }} </button>
+                        <button class="mt-4 btn btn-primary text-primary-content"><fa-icon [icon]="faGithub" class="text-xl"></fa-icon> {{'repository' | translate }} </button>
                     </a>
                     <div class="tooltip tooltip-bottom tooltip-primary" data-tip="Google Drive Link">
                         <a href="https://drive.google.com/drive/folders/1ngA243r2AfNMAHVmCo6PaA6PJc0yROEc" target="_blank">
-                            <button class="mt-4 btn btn-primary text-base-300">Download</button>
+                            <button class="mt-4 btn btn-primary text-primary-content">Download</button>
                         </a>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                     <div class="chat-header">
                       Dungeon Master
                     </div>
-                    <div class="chat-bubble chat-bubble-secondary text-base-300">{{'tabletop.dialogue1' | translate }}</div>
+                    <div class="chat-bubble chat-bubble-secondary text-primary-content">{{'tabletop.dialogue1' | translate }}</div>
                 </div>
                 <div class="chat chat-start">
                     <div class="chat-image avatar">
@@ -59,7 +59,7 @@
                         {{'tabletop.bardName' | translate }}
                         <time class="text-xs opacity-50">Lv3</time>
                     </div>
-                    <div class="chat-bubble chat-bubble-secondary text-base-300">{{'tabletop.dialogue2' | translate }}</div>
+                    <div class="chat-bubble chat-bubble-secondary text-primary-content">{{'tabletop.dialogue2' | translate }}</div>
                 </div>
                 <div class="chat chat-end mb-2">
                     <div class="chat-image avatar">
@@ -72,7 +72,7 @@
                     <div class="chat-header">
                       Dungeon Master
                     </div>
-                    <div class="chat-bubble chat-bubble-secondary text-base-300">{{'tabletop.dialogue3' | translate }}</div>
+                    <div class="chat-bubble chat-bubble-secondary text-primary-content">{{'tabletop.dialogue3' | translate }}</div>
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
                     <h1 class="font-semibold text-lg animate-pulse">{{'tabletop.npcCreationBtn' | translate }}</h1> 
                 </button>
             </div>
-            <div *ngIf="!characterCreated" class="flex justify-evenly bg-base-200">
+            <div *ngIf="!characterCreated" class="flex justify-evenly bg-base-200 rounded-b-box">
                 <div class="flex w-full flex-col gap-4 my-3 px-4">
                     <div class="flex items-center gap-4">
                         <div class="skeleton h-16 w-16 shrink-0 rounded-full"></div>

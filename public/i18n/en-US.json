@@ -19,7 +19,7 @@
 	"tabletop.descriptionBoxes.devNotes.codeText2": "I wanted a tool that would make playing ang preparing more efficient without sacrificing the creative soul of the game.",
 	"tabletop.descriptionBoxes.mainFeatures.title": "Functionalities",
 	"tabletop.descriptionBoxes.toolsUsed.title": "Technologies Used",
-	"tabletop.descriptionBoxes.toolsUsed.ReactFunc": "Frontend Framework",
+	"tabletop.descriptionBoxes.toolsUsed.ReactFunc": "Framework",
 	"tabletop.descriptionBoxes.toolsUsed.ReactDesc": "Chosen for its flexibility, reusable components, and large ecosystem of libraries that accelerate development.",
 	"tabletop.descriptionBoxes.toolsUsed.JSFunc": "Programming Language",
 	"tabletop.descriptionBoxes.toolsUsed.JSDesc": "Used to maintain a unified codebase between frontend and backend, simplifying maintenance",
