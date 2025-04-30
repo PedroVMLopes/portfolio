@@ -41,7 +41,7 @@ export class MainTechnologiesComponent {
     {
       icon: faCode,
       title: "TypeScript",
-      description: "Programming Lenguage"
+      description: "Programming Language"
     },
     {
       icon: faReact,
