@@ -1,10 +1,10 @@
 
 <div class="h-[92vh] flex justify-center items-center">
-    <div class="grid grid-cols-1 sm:grid-cols-2 max-w-[1100px] px-4 sm:px-10">
-        <div class="shrikhand text-6xl font-bold md:text-right ">Pedro Vitor Miranda Lopes</div>
-        <div class="text-lg p-0 sm:px-10 text-wrap z-1 w-full">
-            <p class="py-0 sm:py-4">{{'introductoryText.left' | translate }}<span class="underline">web development</span>{{'introductoryText.right' | translate }}</p>
-            <button class="btn btn-secondary rounded-full mt-4 text-secondary-content" (click)="scrollToSection('mainTechnologies')"> {{'seeMyProjectsButton' | translate }} <fa-icon [icon]="faAngleDown"></fa-icon> </button>
+    <div class="flex flex-col items-center sm:flex-row max-w-[1100px] px-6 md:px-10 ">
+        <div class="shrikhand text-4xl md:text-5xl lg:text-6xl font-bold sm:text-right flex items-center text-center max-w-[400px] md:max-w-[350px] lg:max-w-[500px]">Pedro Vitor Miranda Lopes</div>
+        <div class="text-lg p-0 sm:px-10 text-wrap z-1 w-full flex flex-col items-center sm:items-start">
+            <p class="py-0 sm:py-4 my-6 md:my-0 text-center sm:text-start">{{'introductoryText.left' | translate }}<span class="underline">web development</span>{{'introductoryText.right' | translate }}</p>
+            <button class="btn btn-secondary rounded-full text-secondary-content w-min text-nowrap" (click)="scrollToSection('mainTechnologies')"> {{'seeMyProjectsButton' | translate }} <fa-icon [icon]="faAngleDown"></fa-icon> </button>
         </div>
     </div>
 </div>
